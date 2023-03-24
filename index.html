@@ -1,0 +1,45 @@
+<!DocType html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="HTML,JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Last Name</title>	
+	
+	</head>
+	
+	<body>
+		<script>
+		
+			var users = [
+					  {
+						first_name: 'Mike',
+						last_name: 'Sheridan',
+						age: 30
+					  },
+					  {
+						first_name: 'Tim',
+						last_name: 'Lee',
+						age: 45
+					  },
+					  {
+						first_name: 'John',
+						last_name: 'Carte',
+						age: 25
+					  }
+					];
+
+					
+					var x=users.map(function(val){
+						return val.last_name;
+					})
+					console.log(x);
+			
+			
+			
+			
+		
+		</script>
+	</body>
+</html>
